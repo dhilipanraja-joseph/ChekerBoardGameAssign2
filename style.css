@@ -1,0 +1,32 @@
+.square{
+  padding:3px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: -5px;
+}
+/*.row:nth-child(even) > .square:nth-child(odd){
+  background-color:black;
+
+}
+.row:nth-child(odd) > .square:nth-child(even){
+  background-color:black;
+}*/
+.piece{
+  /*display: block;*/
+  height: 45px;
+  width: 45px;
+  border: 1px solid #000;
+  border-radius: 60px;
+}
+.blackColor{
+  background-color: black;
+}
+.greyColor{
+  background-color: grey;
+}
+.redColor{
+  background-color: red;
+}
